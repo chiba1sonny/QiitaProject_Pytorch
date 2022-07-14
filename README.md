@@ -1,3 +1,4 @@
-# QiitaProject_Pytorch_tutorial
+# Qiita_Project_Pytorch_Tutorial
 
-## preparing a qiita note
+## Preparing a qiita note
+### Ongoing
