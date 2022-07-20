@@ -2,7 +2,6 @@
 #from torch.utils.tensorboard import SummaryWriter
 from tensorboardX import SummaryWriter
 writer = SummaryWriter("logs")
-
 for i in range(100):
     writer.add_scalar("y=2x", 2*i, i)
 
@@ -21,7 +20,9 @@ print(tensor_image)
 trans_tensor = transforms.ToTensor()
 img_tensor = trans_tensor(img)
 print(img)
-
 writer = SummaryWriter("logs1",img_tensor)
 writer.add_image("Totensor", img_tensor)
 writer.close()
+
+#open tensorboard by terminal
+tensorboard logdir=logs/logs1
