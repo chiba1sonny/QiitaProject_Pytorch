@@ -22,3 +22,6 @@ print(net_made_of_seq)
 
 print(type(net_made_of_seq))
 #output: <class 'torch.nn.modules.container.Sequential'> 
+
+print(net_made_of_seq[0].weight)
+#check the values of weight/bias
