@@ -32,3 +32,5 @@ print(net_made_of_seq[3].weight)
 rgb = torch.randn(3,1000)
 print(net_made_of_seq(rgb))
 #check the output of input 'rgb'
+
+#see more about OrderedDict and add_module
