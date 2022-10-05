@@ -25,4 +25,6 @@ print(type(net_made_of_seq))
 #proving as subclass of torch.nn.Module
 
 print(net_made_of_seq[0].weight)
-#check the values of weight/bias
+#check the values of weight/bias of the first layer(1000,100)
+print(net_made_of_seq[3].weight)
+#check the values of weight/bias of the fourth layer(100,10)
