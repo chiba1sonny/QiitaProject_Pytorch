@@ -1,4 +1,4 @@
-# Qiita_Project_Pytorch_Tutorial
+# Qiita Project Pytorch Tutorial
 ### Ongoing
 
 # A simple CNN from scratch for MNIST dataset
